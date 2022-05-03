@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --common-font-family: "Ubuntu", sans-serif;
+    --btn-border-radius: 17px;
+    --btn-background-color: #029837;
+    --color: #029837;
+}
+
+
+/* HOME ALL START  */
+
+
+/* HOME ALL START  */
+
+
+/* Nav Bar Start */
+
+.navbar {
+    height: 100px;
+}
+
+.navLogo {
+    padding-top: 52px;
+    width: 214px;
+    border-radius: 0px;
+    margin-left: -60px;
+}
+
+.nav-link {
+    font-family: var(--common-font-family);
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+}
+
+.btn-outline-success {
+    font-family: var(--common-font-family);
+    border-radius: var(--btn-border-radius);
+}
+
+
+/* Nav Bar End */
+
+
+/* First Part Start */
+
+.firstPart {
+    height: auto;
+    padding: 40px;
+}
+
+.textPart1 {
+    margin-top: 75px;
+}
+
+.webPic {
+    height: 436px;
+    width: 450px;
+    /* margin-left: 85px; */
+}
+
+.mainText {
+    font-family: var(--common-font-family);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0px;
+}
+
+.btn-success {
+    font-family: var(--common-font-family);
+    border-radius: var(--btn-border-radius);
+    background-color: var(--btn-background-color);
+}
+
+
+/* First Part End */
+
+
+/* Servicve Start */
+
+.service {
+    height: auto;
+    background-color: #F7FFF6;
+}
+
+.priceLady {
+    height: 436px;
+    width: 424px;
+}
+
+.textPart1 {
+    margin-bottom: 40px;
+}
+
+.ServiceHText {
+    font-family: var(--common-font-family);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0px;
+}
+
+.ServicePText {
+    font-family: var(--common-font-family);
+}
+
+.fa-solid {
+    color: var(--color);
+}
+
+
+/* Servicve End */
+
+
+/*  Solution Start  */
+
+.solution {
+    height: 300px;
+    padding-top: 41px;
+    font-family: var(--common-font-family);
+    text-align: center;
+}
+
+.sH {
+    font-family: var(--common-font-family);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+    width: 600px;
+    margin: auto;
+}
+
+.sP {
+    font-family: var(--common-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    width: 600px;
+    margin: auto;
+}
+
+
+/*  Solution End */
+
+
+/* Card Start */
+
+.card {
+    padding: 20px;
+    box-shadow: 0px 2px 26px 4px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 2px 26px 4px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 2px 26px 4px rgba(0, 0, 0, 0.35);
+}
+
+.cardImg {
+    height: 53px;
+    width: 65.10493469238281px;
+    margin-left: 19px;
+    top: 413px;
+    border-radius: 6.543210506439209px;
+}
+
+
+/* Card End */
+
+
+/* Customer Review Start */
+
+.CR {
+    background-color: #F7FFF6;
+    height: auto;
+}
+
+.cusText {
+    font-family: var(--common-font-family);
+    width: 481px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+}
+
+.topF {
+    display: flex;
+}
+
+.tText {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.topL {
+    margin-left: 170px;
+}
+
+
+/* Customer Review End */
+
+
+/* Subscribe Start */
+
+.sub {
+    height: 500px;
+    font-family: var(--common-font-family);
+    width: 600px;
+    margin: auto;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.sSH {
+    font-family: var(--common-font-family);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+    width: 600px;
+    margin: auto;
+}
+
+.sSP {
+    font-family: var(--common-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-left: 75px;
+}
+
+
+/* Subscribe End */
+
+
+/* Footer Start */
+
+.footer {
+    background-color: #000033;
+    color: #F7FFF6;
+}
+
+.footerIMG {
+    margin-left: 0;
+}
+
+.footerFirst {
+    padding-top: 100px;
+}
+
+
+/* Footer End */
+
+
+/* ABOUT ALL START */
+
+
+/* ABOUT ALL START */
+
+.btnAboutSolution {
+    background-color: #F7FFF6;
+    height: 489px;
+}
+
+.btnAboutSolutionText {
+    padding-top: 105px;
+}
+
+.AboutsH {
+    font-family: var(--common-font-family);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+    width: 775px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+/* SERVICE ALL START */
+
+
+/* SERVICE ALL START */
+
+.issues {
+    height: 600px;
+}
+
+.issuesALL {
+    padding-top: 30px;
+}
+
+.iBox {
+    padding: 20px;
+    width: 775px;
+    margin: auto;
+}
+
+
+/* reson start */
+
+.R {
+    height: 100px;
+}
+
+.rText {
+    margin-left: 274px;
+}
+
+.rBox {
+    display: flex;
+}
+
+.rButton {
+    margin-left: 400px;
+    margin-top: 13.68px;
+}
+
+
+/* reson end */
+
+
+/* book details start */
+
+.bD {
+    background-color: #a8e0bc;
+    height: 400px;
+}
+
+.MT {
+    margin-top: 50px;
+}
+
+
+/* book details end */
+
+
+/* PRICING ALL START */
+
+
+/* PRICING ALL START */
+
+.solutionPrice {
+    background-color: #F7FFF6;
+}
+
+.pricingText {
+    background-color: #F7FFF6;
+}
+
+.CRP {
+    height: auto;
+}
+
+
+/* issues start */
+
+.issuesPricing {
+    font-family: var(--common-font-family);
+    background-color: #F7FFF6;
+    height: 600px;
+}
+
+.iBox {
+    display: flex;
+}
+
+.Pricingcard {
+    text-align: center
+}
+
+
+/* issues end */
+
+
+/* WEBNIAR ALL START */
+
+
+/* WEBNIAR ALL START */
+
+.R {
+    height: auto;
+    width: 900px;
+    margin: auto;
+}
+
+
+/*CONGRATULATION START  */
+
+
+/*CONGRATULATION START  */
+
+.cong {
+    display: flex;
+}
